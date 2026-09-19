@@ -1,4 +1,4 @@
 export default function capitalize(string) {
   const data = string;
-  return "Barney";
+  return data.charAt(0).toUpperCase() + data.slice(1).toLowerCase();
 }
